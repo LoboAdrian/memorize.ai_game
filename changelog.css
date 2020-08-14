@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee';
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #0F4D84;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px),
+  linear-gradient(60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 180px 305px;
+}
+
+h1 {
+  margin-left: 0px;
+  text-align: center;
+	margin : 0 auto;
+	border-bottom:5px solid black;
+	width:524px;
+  font-size:39px;
+	font-family: "bungee",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+	color:white;
+	text-shadow: -1px 0 1px #582E00, 
+             	1px 0 1px #582E00,
+             	0 -1px 1px #582E00,
+             	0 4px 1px #582E00,
+             	-2px 4px 1px #582E00,
+             	2px 3px 2px #582E00;
+}
+
+h2 {
+  margin-left: 5px;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: none;
+  font-family: "bungee",sans-serif;
+  outline: none;
+  color: #fff;
+}
+
+p {
+  line-height:4px;
+  margin-left: 5px;
+  font-size: 14px;
+  text-align: left;
+  text-decoration: none;
+  font-family: "bungee",sans-serif;
+  outline: none;
+  color: #fff;
+}

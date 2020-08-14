@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee';
+
+/*************************** Body ***************************/
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #0F4D84;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px),
+  linear-gradient(60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 180px 305px;
+}
+
+/*************************** Header 2 ***************************/
+
+h2 {
+  text-align: center;
+	margin : 0 auto;
+	border-bottom:5px solid rgb(0, 0, 0);
+	width:524px;
+  font-size:39px;
+	font-family: "bungee",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+	color:white;
+	text-shadow: -1px 0 1px #582E00, 
+             	1px 0 1px #582E00,
+             	0 -1px 1px #582E00,
+             	0 4px 1px #582E00,
+             	-2px 4px 1px #582E00,
+             	2px 3px 2px #582E00;
+}
+
+/*************************** Progress Bar ***************************/
+
+#progressbar{
+  height: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  background: rgba(159, 159, 159, 0.5);
+  border-radius: 10px;
+  margin: -20px 0 0 -100px;
+  padding: 2px;
+}
+
+#loading{
+  transition: all 500ms ease;
+  height: 20px;
+  width: calc(100% - 10px);
+  border-radius: 8px;
+  background: #474747;
+  position: absolute;
+  margin: 3px;
+  display: inline-block;
+  animation: load 15s ease infinite;
+}
+
+#load{
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+}
+
+@keyframes load{
+  0%{
+    width: 2%;
+  }
+  10%{
+    width: 10%;
+  }
+}

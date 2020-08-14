@@ -1,0 +1,12 @@
+.button1 {
+  background: linear-gradient(to bottom right, #5A2AFF, #00E5F4);
+  box-shadow: 0 9px   slateblue;
+}
+
+.button1:hover {background: dodgerblue}
+
+.button1:active {
+  background: linear-gradient(to bottom right, #00d2ff, #3a7bd5);
+  box-shadow: 0 5px slateblue;
+  transform: translateY(4px);
+}

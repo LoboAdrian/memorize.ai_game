@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee';
+
+/*************************** Body ***************************/
+
+body {
+  margin:0;
+  padding:0;
+  background-color: #0F4D84;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px),
+  linear-gradient(60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 180px 305px;
+}
+
+/*************************** Header 1 ***************************/
+
+h1 {
+  text-align: center;
+	margin : 0 auto;
+	border-bottom:5px solid black;
+	width:524px;
+  font-size:39px;
+	font-family: "bungee",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+	color:white;
+	text-shadow: -1px 0 1px rgb(255, 0, 0)
+}
+
+/*************************** Header 2 ***************************/
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "bungee",sans-serif;
+  outline: none;
+  color: #fff;
+}
+
+.slidecontainer {
+  align-content: center;
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #ffffff;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #a7aaa7;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #0f4d84;
+  cursor: pointer;
+}
